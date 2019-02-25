@@ -1,0 +1,73 @@
+body {
+  background-image: url('bground.jpg');
+  background-size: 100%;
+}
+
+.head-container {
+  text-align: center;
+  margin: 150px 0;
+}
+
+.main-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#new-task {
+  width: 30%;
+  font-size: 20px;
+}
+
+.activ-tasks {
+  position: relative;
+  width: 45%;
+  float: left;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-style: italic;
+}
+
+.finished-tasks {
+  position: relative;
+  width: 45%;
+  float: right;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#inactive-tasks {
+  font-size: 24px;
+}
+
+button {
+  padding: 0;
+}
+
+.pppp {
+  width: 70%;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
